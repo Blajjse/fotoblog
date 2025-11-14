@@ -5,6 +5,7 @@
 :root {
   --font-color : #626262;
   --second-color : #b4ad9e;
+  --link-color : #03A9F4;
 }
 body {
   font-family: var(--font-family);
@@ -14,15 +15,14 @@ body {
 
 .contener {
   margin: auto;
-  width: 1200px;
-  padding: 0 147px;
+  width: 906px;
+  padding: 0 15px;
 }
 
 .header {
   padding-top: 71px;
   padding-bottom: 92px;
   text-align: center;
-  margin-left: -360px;
 }
 
 .header-list {
@@ -48,7 +48,9 @@ body {
   flex-wrap: wrap;
   gap: 63px;
 }
-
+.hero-item {
+  flex-basis: calc((100% - 126px)/2);
+}
 
 
 .fotoblog-img {
